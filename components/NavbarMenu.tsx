@@ -17,37 +17,37 @@ import {
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "Web Application",
+    href: "/",
     description:
       "A modal dialog that interrupts the user with important content and expects a response.",
   },
   {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
+    title: "Mobile Application",
+    href: "/",
     description:
       "For sighted users to preview content available behind a link.",
   },
   {
-    title: "Progress",
-    href: "/docs/primitives/progress",
+    title: "Application Designs",
+    href: "/",
     description:
       "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
   },
   {
-    title: "Scroll-area",
-    href: "/docs/primitives/scroll-area",
+    title: "Automation",
+    href: "/",
     description: "Visually or semantically separates content.",
   },
   {
-    title: "Tabs",
-    href: "/docs/primitives/tabs",
+    title: "Saas",
+    href: "/",
     description:
       "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
   },
   {
-    title: "Tooltip",
-    href: "/docs/primitives/tooltip",
+    title: "Cyber Security",
+    href: "/",
     description:
       "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
   },
@@ -58,7 +58,7 @@ export function NavbarMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Work</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -69,12 +69,10 @@ export function NavbarMenu() {
                   >
                     {/* <Icons.logo className="h-6 w-6" /> */}
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/ui
+                      Nara.ph
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components that you can copy and
-                      paste into your apps. Accessible. Customizable. Open
-                      Source.
+                      Plan, Gather Date, Design, Implement, Host and Maintain that was Nara Do.
                     </p>
                   </a>
                 </NavigationMenuLink>
@@ -92,7 +90,7 @@ export function NavbarMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Services</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
